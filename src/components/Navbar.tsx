@@ -15,7 +15,7 @@ const Navbar = () => {
               <Image width='28' height='28' src="/logo.png" alt="Logo" className='hidden md:block' />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LAMA</span>
           </Link>
-          <div className="flex md:order-2 gap-8">
+          <div className="flex justify-between md:order-2 gap-8">
             <SearchBar />
             <NavIcons />
             <Menu />
