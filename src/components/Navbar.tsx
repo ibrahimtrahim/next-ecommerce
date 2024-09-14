@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
               <Image width='28' height='28' src="/logo.png" alt="Logo" className='hidden md:block' />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LAMA</span>
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Souk</span>
           </Link>
           <div className="flex justify-between md:order-2 gap-8">
             <SearchBar />
